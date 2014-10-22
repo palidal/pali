@@ -8,7 +8,7 @@ Para GNU/Linux o Microsoft Windows
 <li>Obtener una copia del proyecto <a href="https://github.com/palidal/pali.git" target = "_blank">Pali de GitHUB</a>) y colocarlo en e lugar donde se deben de colocar los sitios web. En mi Debian Wheezy es en <b>/var/www/</b>. Depende de cada uno.</li>
 <li>Crear un virtualHost de apache con una configuración similar a esta. (Depende del Sistema Operativo).</li>
 <code>&lt;VirtualHost *:80&gt;
-    <br>ServerAdmin josego@simgia.com
+    <br>ServerAdmin josego85@gmail.com
     <br>DocumentRoot "/var/www/pali/fuentes"
     <br>ServerName pali
     <br>ErrorLog "/var/log/apache2/pali.error.log"
