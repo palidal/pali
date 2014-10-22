@@ -23,7 +23,7 @@ class Index extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('Formularios/index');
+		$this->load->view('Formularios/index2');
 		//$this->load->view('welcome_message');
 	}
 }
