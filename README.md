@@ -7,13 +7,14 @@ Para GNU/Linux o Microsoft Windows
 <li>Descargar un software que maneje GIT.</li>
 <li>Obtener una copia del proyecto <a href="https://github.com/palidal/pali.git" target = "_blank">Pali de GitHUB</a>) y colocarlo en e lugar donde se deben de colocar los sitios web. En mi Debian Wheezy es en <b>/var/www/</b>. Depende de cada uno.</li>
 <li>Crear un virtualHost de apache con una configuración similar a esta. (Depende del Sistema Operativo).</li>
-&gt;VirtualHost *:80&lt;
-    ServerAdmin josego@simgia.com
-    DocumentRoot "/var/www/pali/fuentes"
-    ServerName pali
-    ErrorLog "/var/log/apache2/pali.error.log"
-    CustomLog "/var/log/apache2/pali.access.log" common
-&gt;/VirtualHost
+<code>&lt;VirtualHost *:80&gt;
+    <br>ServerAdmin josego@simgia.com
+    <br>DocumentRoot "/var/www/pali/fuentes"
+    <br>ServerName pali
+    <br>ErrorLog "/var/log/apache2/pali.error.log"
+    <br>CustomLog "/var/log/apache2/pali.access.log" common
+&lt;/VirtualHost&gt;
+</code>
 <li>Habilitar el sitio del VirtualHost. Por ejemplo en Debian Wheezy sería sudo a2ensite pali. Después reiniciar el servidor apache2.</li>
 <li>Habilitar el modulo rewrite de apache2 (Después reiniciar el servidor apache).</li>
 <li>Entrar al archivo host y agregar lo siguiente: 
