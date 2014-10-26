@@ -24,7 +24,7 @@ class Index extends CI_Controller {
 	public function index()
 	{
 		//$this->load->view('Formularios/index2');
-		$this->load->view('Alumnos/formulario1');
+		$this->load->view('Alumnos/formulario2');
 	}
 }
 

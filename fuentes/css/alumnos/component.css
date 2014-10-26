@@ -354,6 +354,14 @@ button.fs-continue,
 	background-image: url(../../recursos/imagenes/conversion.svg);
 }
 
+.fs-fields .fs-radio-custom label.radio-numero5::after {
+	background-image: url(../../recursos/imagenes/numeros/numero_cinco.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-numero6::after {
+	background-image: url(../../recursos/imagenes/numeros/numero_seis.png);
+}
+
 .fs-fields .fs-radio-custom label:hover::after,
 .fs-fields input[type="radio"]:focus + label::after,
 .fs-fields input[type="radio"]:checked + label::after {

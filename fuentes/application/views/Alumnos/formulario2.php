@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>Formulario Alumno 1</title>
+		<title>Formulario de matemáticas</title>
 		<meta name="description" content="Fullscreen Form Interface: A distraction-free form concept with fancy animations" />
 		<meta name="keywords" content="fullscreen form, css animations, distraction-free, web design" />
 		<meta name="author" content="Codrops" />
@@ -21,7 +21,7 @@
 
 			<div class="fs-form-wrap" id="fs-form-wrap">
 				<div class="fs-title">
-					<h1>Formulario Alumno 1</h1>
+					<h1>Formulario de matemáticas</h1>
 <!-- 					<div class="codrops-top"> -->
 <!-- 						<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/NotificationStyles/"><span>Previous Demo</span></a> -->
 <!-- 						<a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=19520"><span>Back to the Codrops Article</span></a> -->
@@ -31,14 +31,13 @@
 				<form id="myform" class="fs-form fs-form-full" autocomplete="off">
 					<ol class="fs-fields">
 						<li>
-							<label class="fs-field-label fs-anim-upper" for="q1">¿Quién descubrió Ámerica?</label>
-<!-- 							<select class="cs-select cs-skin-boxes fs-anim-lower"> -->
-<!-- 								<option value="" disabled selected>¿Quién descubrió Ámerica?</option> -->
-<!-- 								<option value="Cristobal_Colon" data-class="color-588c75">Cristóbal Colón</option> -->
-<!-- 								<option value="BernardoDeVelasco," data-class="color-b0c47f">Bernardo de Velasco</option> -->
-<!-- 								<option value="JoseGasparRodríguezDeFrancia" data-class="color-f3e395">José Gaspar Rodríguez de Francia</option> -->
-<!-- 							</select> -->
-							<input class="fs-anim-lower" id="q1" name="q1" type="text" placeholder="Mario Alonso" required/>
+							<label class="fs-field-label fs-anim-upper" for="q1">¿Cuántos lados tiene un hexágono?</label>
+							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+								<span><input id="q3b" name="q3" type="radio" value="8_lados"/><label for="q3b" class="radio-numero5">8 lados </label></span>
+								<span><input id="q3c" name="q3" type="radio" value="6_lados"/><label for="q3c" class="radio-numero6">6 lados</label></span>
+								<span><input id="q3a" name="q3" type="radio" value="5_lados"/><label for="q3a" class="radio-numero5">5 lados</label></span>
+								<span><input id="q3a" name="q3" type="radio" value="7_lados"/><label for="q3a" class="radio-numero6">7 lados</label></span>
+							</div>
 						</li>
 						<li>
 							<label class="fs-field-label fs-anim-upper" for="q2">¿Cuál es la fecha de la Fundación de Asunción?</label>
