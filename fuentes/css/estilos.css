@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+/* Formulario dinamico */
+.activeDroppable {
+	background-color: #eeffee;
+}
+
+.hoverDroppable {
+	background-color: lightgreen;
+}
+
+.draggableField {
+	/* float: left; */
+	padding-left:5px;
+}
+		
+.draggableField > input,select, button, .checkboxgroup, .selectmultiple, .radiogroup {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.draggableField:hover{
+	background-color: #ccffcc;
+}

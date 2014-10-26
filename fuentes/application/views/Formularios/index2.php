@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo base_url(); ?>js/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>js/libs/jqueryui/themes/base/jquery-ui.css" />
+	<link rel="stylesheet" href="<?php echo base_url(); ?>css/estilo.css" />
 	
 	<title>
 		Formulario Din&aacute;mico
@@ -78,12 +79,12 @@
 
 	var _ctrl_index = 1001;
 	function docReady() {
-		console.log("document ready");
+		//console.log("document ready");
 		compileTemplates();
 		
 		makeDraggable();
 		
-		$( ".droppedFields" ).droppable({
+		$(".droppedFields").droppable({
 			  activeClass: "activeDroppable",
 			  hoverClass: "hoverDroppable",
 			  accept: ":not(.ui-sortable-helper)",
@@ -99,27 +100,26 @@
 
 				/* Once dropped, attach the customization handler to the control */
 				draggable.click(function () {
-										// The following assumes that dropped fields will have a ctrl-defined. 
-										//   If not required, code needs to handle exceptions here. 
-										var me = $(this)
-										var ctrl = me.find("[class*=ctrl]")[0];
-										var ctrl_type = $.trim(ctrl.className.match("ctrl-.*")[0].split(" ")[0].split("-")[1]);
-										customize_ctrl(ctrl_type, this.id);
-										//window["customize_"+ctrl_type](this.id);
-								});
+					// The following assumes that dropped fields will have a ctrl-defined. 
+					//   If not required, code needs to handle exceptions here. 
+					var me = $(this)
+					var ctrl = me.find("[class*=ctrl]")[0];
+					var ctrl_type = $.trim(ctrl.className.match("ctrl-.*")[0].split(" ")[0].split("-")[1]);
 
+					customize_ctrl(ctrl_type, this.id);
+					//window["customize_"+ctrl_type](this.id);
+				});
 				makeDraggable();
 			}
 		});		
 
 		/* Make the droppedFields sortable and connected with other droppedFields containers*/
-		$( ".droppedFields" ).sortable({
-										cancel: null, // Cancel the default events on the controls
-										connectWith: ".droppedFields"
-									}).disableSelection();
+		$(".droppedFields").sortable({
+			cancel: null, // Cancel the default events on the controls
+			connectWith: ".droppedFields"
+		}).disableSelection();
 	}
 	
-
 	/*
 		Preview the customized form 
 			-- Opens a new window and renders html content there.
