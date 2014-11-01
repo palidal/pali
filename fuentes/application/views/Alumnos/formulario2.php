@@ -28,7 +28,8 @@
 <!-- 						<a class="codrops-icon codrops-icon-info" href="#"><span>This is a demo for a fullscreen form</span></a> -->
 <!-- 					</div> -->
 				</div>
-				<form id="myform" class="fs-form fs-form-full" autocomplete="off">
+<!-- 				<form id="myform" class="fs-form fs-form-full" autocomplete="off" action="Formularios/guardarRespuestasAlumno" method="post"> -->
+				<form autocomplete="off" action="Formularios.php" method="post">
 					<ol class="fs-fields">
 						<li>
 							<label class="fs-field-label fs-anim-upper" for="q1">¿Cuántos lados tiene un hexágono?</label>
@@ -86,7 +87,8 @@
 							<input class="fs-mark fs-anim-lower" id="q5" name="q5" type="number" placeholder="1000" step="100" min="100"/>
 						</li>
 					</ol><!-- /fs-fields -->
-					<button class="fs-submit" type="submit">Enviar respuestas</button>
+<!-- 					<button class="fs-submit" type="submit">Enviar respuestas</button> -->
+					<button type="submit">Enviar respuestas</button>
 				</form><!-- /fs-form -->
 			</div><!-- /fs-form-wrap -->
 		</div><!-- /container -->
