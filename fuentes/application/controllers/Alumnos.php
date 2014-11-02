@@ -2,7 +2,15 @@
 
 class Alumnos extends CI_Controller {
 	public function index(){
-		$this->load->view('Alumnos/index');
+		//$this->load->view('Alumnos/index');
+	}
+	
+	public function formulario1(){
+		$this->load->view('Alumnos/formulario1');
+	}
+	
+	public function formulario2(){
+		$this->load->view('Alumnos/formulario2');
 	}
 }
 

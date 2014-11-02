@@ -37,20 +37,20 @@
 
           <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
+              <a href="<?php echo base_url() . 'Alumnos/formulario2'; ?>"><img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Matem&aacute;tica" title ="Matem&aacute;tica"></a>
               <h4>Matem&aacute;tica</h4>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
+              <a href="<?php echo base_url() . 'Alumnos/formulario1'; ?>"><img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Geograf&iacute;a" title ="Geograf&iacute;a"></a>
               <h4>Geograf&iacute;a</h4>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
+              <img data-src="holder.js/200x200/auto/lava" class="img-responsive" alt="Historia" title ="Historia">
+              <h4>Historia</h4>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
-              <h4>Label</h4>
+              <img data-src="holder.js/200x200/auto/social" class="img-responsive" alt="Salud" title ="Salud">
+              <h4>Salud</h4>
             </div>
           </div>
 
