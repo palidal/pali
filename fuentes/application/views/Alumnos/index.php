@@ -16,17 +16,8 @@
           </button>
           <a class="navbar-brand" href="<?php echo base_url(); ?>">Pali</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Configuraciones</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Ayuda</a></li>
-          </ul>
-<!--           <form class="navbar-form navbar-right"> -->
-<!--             <input type="text" class="form-control" placeholder="Search..."> -->
-<!--           </form> -->
-        </div>
+        <!-- Menu -->
+    	<?php $this->load->view('comunes/menu_alumnos')?>
       </div>
     </nav>
 
