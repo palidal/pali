@@ -12,6 +12,10 @@ class Alumnos extends CI_Controller {
 	public function formulario2(){
 		$this->load->view('Alumnos/formulario2');
 	}
+	
+	public function guardarRespuestasAlumno(){
+		echo "Guardado";
+	}
 }
 
 /* End of file Alumnos.php */

@@ -20,10 +20,6 @@ class Formularios extends CI_Controller {
 	public function index(){
 		$this->load->view('Formularios/index2');
 	}
-	
-	public function guardarRespuestasAlumno(){
-		echo "hola";
-	}
 }
 
 /* End of file welcome.php */

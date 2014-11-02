@@ -28,7 +28,7 @@
 <!-- 						<a class="codrops-icon codrops-icon-info" href="#"><span>This is a demo for a fullscreen form</span></a> -->
 <!-- 					</div> -->
 				</div>
-				<form id="myform" class="fs-form fs-form-full" autocomplete="off" action="Formularios/guardarRespuestasAlumno" method="post">
+				<form id="myform" class="fs-form fs-form-full" autocomplete="off" action="guardarRespuestasAlumno" method="post">
 					<ol class="fs-fields">
 						<li>
 							<label class="fs-field-label fs-anim-upper" for="q1">¿Cuántos lados tiene un hexágono?</label>
