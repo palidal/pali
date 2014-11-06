@@ -1,9 +1,9 @@
 <div id="navbar" class="navbar-collapse collapse">
 	<ul class="nav navbar-nav navbar-right">
-    	<li><a href="<?php echo base_url(); ?>">Dashboard Alumno</a></li>
-    	<li><a href="<?php echo base_url(). 'Docentes/index'; ?>">Dashboard Docente</a></li>
+    	<li><a href="<?php echo base_url() . "Alumnos/index"; ?>">Dashboard</a></li>
 <!--         <li><a href="#">Resultados</a></li> -->
         <li><a href="<?php echo base_url(). 'Profile/index'; ?>">Profile</a></li>
+        <li><a href="<?php echo base_url(); ?>">Salir</a></li>
 <!--         <li><a href="#">Ayuda</a></li> -->
     </ul>
 <!--     <form class="navbar-form navbar-right"> -->
