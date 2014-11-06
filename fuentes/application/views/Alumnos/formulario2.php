@@ -8,7 +8,9 @@
 		<meta name="description" content="Fullscreen Form Interface: A distraction-free form concept with fancy animations" />
 		<meta name="keywords" content="fullscreen form, css animations, distraction-free, web design" />
 		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="<?php echo base_url(); ?>recursos/imagenes/logo/favicon.ico">
+		
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/alumnos/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/alumnos/demo.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/alumnos/component.css" />
