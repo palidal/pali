@@ -106,22 +106,12 @@ body {
 
 /* Areas del Dashboard */
 /* Matematicas */
-.area_matematicas {
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
-	border: 2px solid #FFFEB5;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	background-position: 50% 50%;
-	background: url(http://pali/recursos/imagenes/alumnos/areas/Matematicas.png) no-repeat;
-/* 	box-shadow: 0 0 8px rgba(0, 0, 0, .8); */
-/* 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); */
-/* 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); */
-}
-
-.area_matematicas img {
+.alumno_area_borde img {
 	opacity: 0;
 	filter: alpha(opacity=0);
+}
+
+.alumno_area_borde{
+    border-radius: 150px;
+    border: 2px solid #FFFEB5;
 }
