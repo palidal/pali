@@ -362,14 +362,31 @@ button.fs-continue,
 	background-image: url(../../recursos/imagenes/numeros/numero_seis.png);
 }
 
+.fs-fields .fs-radio-custom label.radio-3y10::after {
+	background-image: url(../../recursos/imagenes/relojes/3y10.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-3y15::after {
+	background-image: url(../../recursos/imagenes/relojes/3y15.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-3y30::after {
+	background-image: url(../../recursos/imagenes/relojes/3y30.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-3y45::after {
+	background-image: url(../../recursos/imagenes/relojes/3y45.png);
+}
+
 .fs-fields .fs-radio-custom label:hover::after,
 .fs-fields input[type="radio"]:focus + label::after,
 .fs-fields input[type="radio"]:checked + label::after {
-	opacity: 1;
+	opacity: 2;
 }
 
 .fs-fields .fs-radio-custom input[type="radio"]:checked + label {
-	color: #fffed8;
+	/*color: #fffed8;*/
+	color: #ED3333;
 }
 
 .fs-form-overview .fs-fields .fs-radio-custom input[type="radio"]:checked + label {

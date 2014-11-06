@@ -33,15 +33,20 @@
 						<li>
 							<label class="fs-field-label fs-anim-upper" for="q1">¿Cuántos lados tiene un hexágono?</label>
 							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
-								<span><input id="q3b" name="q3" type="radio" value="8_lados"/><label for="q3b" class="radio-numero5">8 lados </label></span>
-								<span><input id="q3c" name="q3" type="radio" value="6_lados"/><label for="q3c" class="radio-numero6">6 lados</label></span>
-								<span><input id="q3a" name="q3" type="radio" value="5_lados"/><label for="q3a" class="radio-numero5">5 lados</label></span>
-								<span><input id="q3a" name="q3" type="radio" value="7_lados"/><label for="q3a" class="radio-numero6">7 lados</label></span>
+								<span><input id="q1b" name="q1" type="radio" value="8_lados"/><label for="q1b" class="radio-numero5">8 lados</label></span>
+								<span><input id="q1c" name="q1" type="radio" value="6_lados"/><label for="q1c" class="radio-numero6">6 lados</label></span>
+								<span><input id="q1a" name="q1" type="radio" value="5_lados"/><label for="q1a" class="radio-numero5">5 lados</label></span>
+								<span><input id="q1d" name="q1" type="radio" value="7_lados"/><label for="q1d" class="radio-numero6">7 lados</label></span>
 							</div>
 						</li>
 						<li>
-							<label class="fs-field-label fs-anim-upper" for="q2">¿Cuál es la fecha de la Fundación de Asunción?</label>
-							<input class="fs-anim-lower" id="q2" name="q2" type="text" placeholder="30 de enero de 2014" required/>
+							<label class="fs-field-label fs-anim-upper" for="q2">Elija el reloj que marque las tres y media.</label>
+							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+								<span><input id="q2b" name="q2" type="radio" value="3y10"/><label for="q2b" class="radio-3y10">1</label></span>
+								<span><input id="q2c" name="q2" type="radio" value="3y15"/><label for="q2c" class="radio-3y15">2</label></span>
+								<span><input id="q2a" name="q2" type="radio" value="3y30"/><label for="q2a" class="radio-3y30">3</label></span>
+								<span><input id="q2d" name="q2" type="radio" value="3y45"/><label for="q2d" class="radio-3y45">4</label></span>
+							</div>
 						</li>
 						<li data-input-trigger>
 							<label class="fs-field-label fs-anim-upper" for="q3" data-info="Esto nos ayudará a saber qué tipo de servicio necesita">¿Cuál es el su prioridad para su nueva página web?</label>
