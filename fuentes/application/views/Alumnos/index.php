@@ -29,8 +29,10 @@
 
           <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="<?php echo base_url() . 'Alumnos/formulario2'; ?>"><img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Matem&aacute;tica" title ="Matem&aacute;tica"></a>
-              <h4>Matem&aacute;tica</h4>
+              <div class="area_matematicas"><a href="<?php echo base_url() . 'Alumnos/formulario2'; ?>"><img src="<?php echo base_url() . "recursos/imagenes/alumnos/areas/Matematicas.png"; ?>" alt="Matem&aacute;ticas" title="Matem&aacute;ticas"/></a></div>
+              <!-- <a href="<?php // echo base_url() . 'Alumnos/formulario2'; ?>"><img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Matem&aacute;tica" title ="Matem&aacute;tica"></a>
+              -->
+              <h4>Matem&aacute;tica</h4> 
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
               <a href="<?php echo base_url() . 'Alumnos/formulario1'; ?>"><img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Geograf&iacute;a" title ="Geograf&iacute;a"></a>

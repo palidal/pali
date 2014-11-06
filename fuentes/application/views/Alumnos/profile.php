@@ -3,6 +3,7 @@
 <head>
 	<!-- Cabecera -->
     <?php $this->load->view('comunes/cabecera_alumnos_dashboard')?>
+    <title>Profile</title>
     <style>
     	.form-control {
     		width: 80%;
