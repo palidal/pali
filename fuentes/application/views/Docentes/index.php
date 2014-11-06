@@ -3,6 +3,7 @@
 <head>
 	<!-- Cabecera -->
     <?php $this->load->view('comunes/cabecera_docentes_dashboard')?>
+    <title>Dashboard Docente</title>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -58,25 +59,32 @@
                   <td>5/10</td>
                 </tr>
                 <tr>
-                  <td>Santisima Trinidad</td>
+                  <td>San Cristobal</td>
                   <td>4</td>
                   <td>Javier Alonzo</td>
                   <td>Sociales</td>
                   <td>2/6</td>
                 </tr>
                 <tr>
-                  <td>San Carlos</td>
+                  <td>Santisima Trinidad</td>
                   <td>3</td>
                   <td>Raul Achucarro</td>
                   <td>Salud</td>
                   <td>6/10</td>
                 </tr>
                 <tr>
-                  <td>San Vicente</td>
+                  <td>Santisima Trinidad</td>
                   <td>2</td>
                   <td>Lucia Samaniego</td>
                   <td>Historia</td>
                   <td>6/6</td>
+                </tr>
+                <tr>
+                  <td>Santisima Trinidad</td>
+                  <td>6</td>
+                  <td>Alrnaldo Sanchez</td>
+                  <td>Ciencias</td>
+                  <td>7/10</td>
                 </tr>
               </tbody>
             </table>

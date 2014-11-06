@@ -3,6 +3,7 @@
 <head>
 	<!-- Cabecera -->
     <?php $this->load->view('comunes/cabecera_alumnos_dashboard')?>
+    <title>Dashboard Alumno</title>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">

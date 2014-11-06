@@ -3,9 +3,15 @@
 <head>
     <!-- Cabecera -->
     <?php $this->load->view('comunes/cabecera_alumnos_dashboard')?>
+    <title>Login</title>
+    <style type="text/css">
+		h2 {
+   			font-size: 18px;
+		}
+	</style>
 </head>
 <body>
-	<img src="<?php echo base_url(); ?>recursos/imagenes/logo/pali.jpg" alt="Pali" title="Pali" width="20%" height="30%" class="img-responsive center-block">
+	<img src="<?php echo base_url(); ?>recursos/imagenes/logo/pali.jpg" alt="Pali" title="Pali" width="30%" height="50%" class="img-responsive center-block">
     <div class="container">
         <form class="form-signin" role="form" action="/Login/login" method="post">
             <h2 class="form-signin-heading">Por favor, inicie sesión</h2>
