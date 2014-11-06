@@ -27,3 +27,9 @@
 <script src="<?php echo base_url(); ?>js/docs.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="<?php echo base_url(); ?>js/ie10-viewport-bug-workaround.js"></script>
+
+<style type="text/css">
+   body { 
+       background: #FFFED8; 
+   }
+</style>
