@@ -40,55 +40,40 @@
 							</div>
 						</li>
 						<li>
-							<label class="fs-field-label fs-anim-upper" for="q2">Elija el reloj que marque las tres y media.</label>
+							<label class="fs-field-label fs-anim-upper" for="q2">Elija el reloj que marque las tres y media</label>
 							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
-								<span><input id="q2b" name="q2" type="radio" value="3y10"/><label for="q2b" class="radio-3y10">1</label></span>
-								<span><input id="q2c" name="q2" type="radio" value="3y15"/><label for="q2c" class="radio-3y15">2</label></span>
-								<span><input id="q2a" name="q2" type="radio" value="3y30"/><label for="q2a" class="radio-3y30">3</label></span>
-								<span><input id="q2d" name="q2" type="radio" value="3y45"/><label for="q2d" class="radio-3y45">4</label></span>
+								<span><input id="q2b" name="q2" type="radio" value="3y10"/><label for="q2b" class="radio-3y10">Opci&oacute;n 1</label></span>
+								<span><input id="q2c" name="q2" type="radio" value="3y15"/><label for="q2c" class="radio-3y15">Opci&oacute;n 2</label></span>
+								<span><input id="q2a" name="q2" type="radio" value="3y30"/><label for="q2a" class="radio-3y30">Opci&oacute;n 3</label></span>
+								<span><input id="q2d" name="q2" type="radio" value="3y45"/><label for="q2d" class="radio-3y45">Opci&oacute;n 4</label></span>
 							</div>
 						</li>
-						<li data-input-trigger>
-							<label class="fs-field-label fs-anim-upper" for="q3" data-info="Esto nos ayudará a saber qué tipo de servicio necesita">¿Cuál es el su prioridad para su nueva página web?</label>
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q3">Seleccione un múltiplo de 3</label>
 							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
-								<span><input id="q3b" name="q3" type="radio" value="conversion"/><label for="q3b" class="radio-conversion">Vender cosas</label></span>
-								<span><input id="q3c" name="q3" type="radio" value="social"/><label for="q3c" class="radio-social">Hacerse famoso</label></span>
-								<span><input id="q3a" name="q3" type="radio" value="mobile"/><label for="q3a" class="radio-mobile">Mercado móvil</label></span>
+								<span><input id="q3b" name="q3" type="radio" value="26"/><label for="q3b" class="radio-26">26</label></span>
+								<span><input id="q3c" name="q3" type="radio" value="13"/><label for="q3c" class="radio-13">13</label></span>
+								<span><input id="q3a" name="q3" type="radio" value="32"/><label for="q3a" class="radio-32">32</label></span>
+								<span><input id="q3d" name="q3" type="radio" value="30"/><label for="q3d" class="radio-30">30</label></span>
 							</div>
 						</li>
-						<li data-input-trigger>
-							<label class="fs-field-label fs-anim-upper" data-info="Nos aseguraremos de usarlo en todo el sitio web">Elija un color para su sitio web.</label>
-							<select class="cs-select cs-skin-boxes fs-anim-lower">
-								<option value="" disabled selected>Elija un color</option>
-								<option value="#588c75" data-class="color-588c75">#588c75</option>
-								<option value="#b0c47f" data-class="color-b0c47f">#b0c47f</option>
-								<option value="#f3e395" data-class="color-f3e395">#f3e395</option>
-								<option value="#f3ae73" data-class="color-f3ae73">#f3ae73</option>
-								<option value="#da645a" data-class="color-da645a">#da645a</option>
-								<option value="#79a38f" data-class="color-79a38f">#79a38f</option>
-								<option value="#c1d099" data-class="color-c1d099">#c1d099</option>
-								<option value="#f5eaaa" data-class="color-f5eaaa">#f5eaaa</option>
-								<option value="#f5be8f" data-class="color-f5be8f">#f5be8f</option>
-								<option value="#e1837b" data-class="color-e1837b">#e1837b</option>
-								<option value="#9bbaab" data-class="color-9bbaab">#9bbaab</option>
-								<option value="#d1dcb2" data-class="color-d1dcb2">#d1dcb2</option>
-								<option value="#f9eec0" data-class="color-f9eec0">#f9eec0</option>
-								<option value="#f7cda9" data-class="color-f7cda9">#f7cda9</option>
-								<option value="#e8a19b" data-class="color-e8a19b">#e8a19b</option>
-								<option value="#bdd1c8" data-class="color-bdd1c8">#bdd1c8</option>
-								<option value="#e1e7cd" data-class="color-e1e7cd">#e1e7cd</option>
-								<option value="#faf4d4" data-class="color-faf4d4">#faf4d4</option>
-								<option value="#fbdfc9" data-class="color-fbdfc9">#fbdfc9</option>
-								<option value="#f1c1bd" data-class="color-f1c1bd">#f1c1bd</option>
-							</select>
+						<li>
+							<label class="fs-field-label fs-anim-upper" for="q4">¿Cuántos vértices tiene un cuadrilátero?</label>
+							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+								<span><input id="q4b" name="q4" type="radio" value="5"/><label for="q4b" class="radio-5vertices">5</label></span>
+								<span><input id="q4c" name="q4" type="radio" value="1"/><label for="q4c" class="radio-1vertice">1</label></span>
+								<span><input id="q4a" name="q4" type="radio" value="4"/><label for="q4a" class="radio-4vertices">4</label></span>
+								<span><input id="q4d" name="q4" type="radio" value="3"/><label for="q4d" class="radio-3vertices">3</label></span>
+							</div>
 						</li>
 						<li>
-							<label class="fs-field-label fs-anim-upper" for="q4">Describa de como se imagina su nuevo sitio web</label>
-							<textarea class="fs-anim-lower" id="q4" name="q4" placeholder="Describe here"></textarea>
-						</li>
-						<li>
-							<label class="fs-field-label fs-anim-upper" for="q5">¿Cuál es tu presupuesto?</label>
-							<input class="fs-mark fs-anim-lower" id="q5" name="q5" type="number" placeholder="1000" step="100" min="100"/>
+							<label class="fs-field-label fs-anim-upper" for="q5">9 + 81 + 199</label>
+							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
+								<span><input id="q5b" name="q5" type="radio" value="289"/><label for="q5b" class="radio-289">289</label></span>
+								<span><input id="q5c" name="q5" type="radio" value="179"/><label for="q5c" class="radio-179">179</label></span>
+								<span><input id="q5a" name="q5" type="radio" value="279"/><label for="q5a" class="radio-279">279</label></span>
+								<span><input id="q5d" name="q5" type="radio" value="189"/><label for="q5d" class="radio-189">189</label></span>
+							</div>
 						</li>
 					</ol><!-- /fs-fields -->
 					<button class="fs-submit" type="submit">Enviar respuestas</button>

@@ -378,6 +378,54 @@ button.fs-continue,
 	background-image: url(../../recursos/imagenes/relojes/3y45.png);
 }
 
+.fs-fields .fs-radio-custom label.radio-26::after {
+	background-image: url(../../recursos/imagenes/numeros/26.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-13::after {
+	background-image: url(../../recursos/imagenes/numeros/13.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-32::after {
+	background-image: url(../../recursos/imagenes/numeros/32.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-30::after {
+	background-image: url(../../recursos/imagenes/numeros/30.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-5vertices::after {
+	background-image: url(../../recursos/imagenes/numeros/5vertices.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-1vertice::after {
+	background-image: url(../../recursos/imagenes/numeros/1vertice.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-4vertices::after {
+	background-image: url(../../recursos/imagenes/numeros/4vertices.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-3vertices::after {
+	background-image: url(../../recursos/imagenes/numeros/3vertices.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-289::after {
+	background-image: url(../../recursos/imagenes/numeros/289.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-179::after {
+	background-image: url(../../recursos/imagenes/numeros/179.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-279::after {
+	background-image: url(../../recursos/imagenes/numeros/279.png);
+}
+
+.fs-fields .fs-radio-custom label.radio-189::after {
+	background-image: url(../../recursos/imagenes/numeros/189.png);
+}
+
 .fs-fields .fs-radio-custom label:hover::after,
 .fs-fields input[type="radio"]:focus + label::after,
 .fs-fields input[type="radio"]:checked + label::after {
