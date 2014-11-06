@@ -11,7 +11,7 @@
 	</style>
 </head>
 <body>
-	<img src="<?php echo base_url(); ?>recursos/imagenes/logo/pali.jpg" alt="Pali" title="Pali" width="200px" height="300px" class="img-responsive center-block">
+	<img src="<?php echo base_url(); ?>recursos/imagenes/logo/pali.png" alt="Pali" title="Pali" width="200px" height="300px" class="img-responsive center-block">
     <div class="container">
         <form class="form-signin" role="form" action="/Login/login" method="post">
             <h2 class="form-signin-heading">Por favor, inicie sesión</h2>
