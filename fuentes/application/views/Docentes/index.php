@@ -28,13 +28,13 @@
           <h1 class="page-header">Dashboard</h1>
 
           <div class="row placeholders">
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Matem&aacute;tica" title ="Matem&aacute;tica">
-              <h4>Crear Formularios</h4>
+            <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive img-circle docentes_area_borde" src="<?php echo base_url() . "recursos/imagenes/docentes/areas/Formularios.png"; ?>" alt="Crear Formularios" title="Crear Formularios"/>
+                <h4>Crear Formularios</h4>
             </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Geograf&iacute;a" title ="Geograf&iacute;a">
-              <h4>Instituciones</h4>
+            <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive img-circle docentes_area_borde" src="<?php echo base_url() . "recursos/imagenes/docentes/areas/Instituciones.png"; ?>" alt="Instituciones" title="Instituciones"/>
+                <h4>Instituciones</h4>
             </div>
           </div>
 
