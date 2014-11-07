@@ -39,10 +39,10 @@
           <h2 class="sub-header">Gr&aacute;ficos</h2>
           <div class="row placeholders">
             <div class="col-xs-6">
-                <img class="img-responsive" src="<?php echo base_url() . "recursos/imagenes/graficos/Grafico1.png"; ?>" alt="San Cristobal - Primer Grado (Matem&aacute;tica)" title="San Cristobal - Primer Grado (Matem&aacute;tica)"/>
+                <img class="img-responsive" src="<?php echo base_url() . "recursos/imagenes/graficos/Grafico1.png"; ?>" alt="San Cristobal - Cuarto Grado (Matem&aacute;tica)" title="San Cristobal - Cuarto Grado (Matem&aacute;tica)"/>
             </div>
             <div class="col-xs-6">
-                <img class="img-responsive" src="<?php echo base_url() . "recursos/imagenes/graficos/Grafico2.png"; ?>" alt="Santisima Trinidad - Cuarto Grado (Ciencias)" title="Santisima Trinidad - Cuarto Grado (Ciencias)"/>
+                <img class="img-responsive" src="<?php echo base_url() . "recursos/imagenes/graficos/Grafico2.png"; ?>" alt="Santisima Trinidad - Segundo Grado (Ciencias)" title="Santisima Trinidad - Segundo Grado (Ciencias)"/>
             </div>
           </div>
           

@@ -33,12 +33,12 @@
                 <h4>Matem&aacute;tica</h4>
             </div>
             <div class="col-xs-6 col-sm-3">
-                <a href="<?php echo base_url() . 'Alumnos/formulario1'; ?>"><img class="img-responsive img-circle alumno_area_borde" src="<?php echo base_url() . "recursos/imagenes/alumnos/areas/Geografia.png"; ?>" alt="Geograf&iacute;a" title="Geograf&iacute;a"/></a>
-                <h4>Geograf&iacute;a</h4>
+                <a href="<?php echo base_url() . 'Alumnos/formulario1'; ?>"><img class="img-responsive img-circle alumno_area_borde" src="<?php echo base_url() . "recursos/imagenes/alumnos/areas/Historia.png"; ?>" alt="Historia" title="Historia"/></a>
+                <h4>Historia</h4>
             </div>
             <div class="col-xs-6 col-sm-3">
-                <img class="img-responsive img-circle alumno_area_borde" src="<?php echo base_url() . "recursos/imagenes/alumnos/areas/Historia.png"; ?>" alt="Historia" title="Historia"/>
-                <h4>Historia</h4>
+                <img class="img-responsive img-circle alumno_area_borde" src="<?php echo base_url() . "recursos/imagenes/alumnos/areas/Geografia.png"; ?>" alt="Geograf&iacute;a" title="Geograf&iacute;a"/>
+                <h4>Geograf&iacute;a</h4>
             </div>
             <div class="col-xs-6 col-sm-3">
                 <img class="img-responsive img-circle alumno_area_borde" src="<?php echo base_url() . "recursos/imagenes/alumnos/areas/Ciencias.png"; ?>" alt="Ciencias" title="Ciencias"/>

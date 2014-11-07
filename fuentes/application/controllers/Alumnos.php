@@ -18,7 +18,12 @@ class Alumnos extends CI_Controller {
 	}
 	
 	public function guardarRespuestasAlumno(){
-		echo "Guardado";
+		echo "<h1>Guardado</h1>";
+		
+		// Dormir durante 1 segundo.
+		sleep(1);
+		
+		$this->load->view('Alumnos/index');
 	}
 }
 

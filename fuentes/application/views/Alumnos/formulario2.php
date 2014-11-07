@@ -35,10 +35,10 @@
 						<li>
 							<label class="fs-field-label fs-anim-upper" for="q1">¿Cuántos lados tiene un hexágono?</label>
 							<div class="fs-radio-group fs-radio-custom clearfix fs-anim-lower">
-								<span><input id="q1b" name="q1" type="radio" value="8_lados"/><label for="q1b" class="radio-numero5">8 lados</label></span>
+<!-- 								<span><input id="q1b" name="q1" type="radio" value="8_lados"/><label for="q1b" class="radio-numero5">8 lados</label></span> -->
 								<span><input id="q1c" name="q1" type="radio" value="6_lados"/><label for="q1c" class="radio-numero6">6 lados</label></span>
 								<span><input id="q1a" name="q1" type="radio" value="5_lados"/><label for="q1a" class="radio-numero5">5 lados</label></span>
-								<span><input id="q1d" name="q1" type="radio" value="7_lados"/><label for="q1d" class="radio-numero6">7 lados</label></span>
+<!-- 								<span><input id="q1d" name="q1" type="radio" value="7_lados"/><label for="q1d" class="radio-numero6">7 lados</label></span> -->
 							</div>
 						</li>
 						<li>
