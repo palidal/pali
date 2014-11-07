@@ -32,17 +32,17 @@
                 <a href="<?php echo base_url() . 'Alumnos/formulario2'; ?>"><img class="img-responsive img-circle alumno_area_borde" src="<?php echo base_url() . "recursos/imagenes/alumnos/areas/Matematicas.png"; ?>" alt="Matem&aacute;ticas" title="Matem&aacute;ticas"/></a>
                 <h4>Matem&aacute;tica</h4>
             </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <a href="<?php echo base_url() . 'Alumnos/formulario1'; ?>"><img data-src="holder.js/280x276/auto/vine" class="img-responsive" alt="Geograf&iacute;a" title ="Geograf&iacute;a"></a>
-              <h4>Geograf&iacute;a</h4>
+            <div class="col-xs-6 col-sm-3">
+                <a href="<?php echo base_url() . 'Alumnos/formulario1'; ?>"><img class="img-responsive img-circle alumno_area_borde" src="<?php echo base_url() . "recursos/imagenes/alumnos/areas/Geografia.png"; ?>" alt="Geograf&iacute;a" title="Geograf&iacute;a"/></a>
+                <h4>Geograf&iacute;a</h4>
             </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/280x276/auto/lava" class="img-responsive" alt="Historia" title ="Historia">
-              <h4>Historia</h4>
+            <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive img-circle alumno_area_borde" src="<?php echo base_url() . "recursos/imagenes/alumnos/areas/Historia.png"; ?>" alt="Historia" title="Historia"/>
+                <h4>Historia</h4>
             </div>
-            <div class="col-xs-6 col-sm-3 placeholder">
-              <img data-src="holder.js/280x276/auto/social" class="img-responsive" alt="Salud" title ="Salud">
-              <h4>Salud</h4>
+            <div class="col-xs-6 col-sm-3">
+                <img class="img-responsive img-circle alumno_area_borde" src="<?php echo base_url() . "recursos/imagenes/alumnos/areas/Ciencias.png"; ?>" alt="Ciencias" title="Ciencias"/>
+                <h4>Ciencias</h4>
             </div>
           </div>
         </div>
