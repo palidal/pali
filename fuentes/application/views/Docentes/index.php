@@ -75,7 +75,7 @@
                   <td>5</td>
                   <td>Ciencias</td>
                   <td>Javier Alonzo</td>
-                  <td>Reservas natualrez Paraguay</td>
+                  <td>Reservas naturalez del Paraguay</td>
                   <td>2/6</td>
                   <td>33,33%</td>
                 </tr>
