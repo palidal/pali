@@ -18,7 +18,7 @@ class Alumnos extends CI_Controller {
 	}
 	
 	public function guardarRespuestasAlumno(){
-		echo "<h1>Guardado</h1>";
+		echo "<center><h1>Guardado</h1></center>";
 		
 		// Dormir durante 1 segundo.
 		sleep(1);
